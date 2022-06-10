@@ -14,7 +14,7 @@ const SearchBar = ({ onSubmit }) => {
           <input
             type="text"
             name="search"
-            placeholder=""
+            placeholder="検索ワード"
             value={term}
             onChange={(event) => {
               setTerm(event.target.value);

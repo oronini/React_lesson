@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import SearchBar from "./components/SearchBar";
-import ImageList from "./components/ImageList";
+import { SearchBar, ImageList } from "./components/index";
 import pixabayLogo from "./pixabayLogo.png";
 
 const App = () => {
